@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AskBTC</title>
+    <link rel="stylesheet" href="./askbtc.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav><img src="./Logo.png" alt="askbtc.in logo" /></nav>
+    <br />
+
+    <!-- home hero section -->
+
+    <section class="hero">
+      <div class="hero-section">
+        <h1>The Best Bitcoin Investment Calculator Used By Professionals</h1>
+        <a href="#jump">CALCULATE NOW</a>
+      </div>
+    </section>
+
+    <!-- calculator form -->
+    <section class="calculator form">
+      <form action="">
+        <div class="selection" id="jump">
+          <!-- title -->
+
+          <h2>Select Cryptocurrency</h2>
+
+          <!-- selections -->
+
+          <select name="cryptocurrency" id="crypto">
+            <option value="Select" selected>Select</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="Litecoin">Litecoin</option>
+            <option value="XRP">XRP</option>
+          </select>
+        </div>
+
+        <div class="form_entry" style="background-color: #3867e4">
+          <input
+            type="number"
+            name="Enter Amount In USD"
+            value="Enter Amount In USD"
+            placeholder="Enter Amount In USD"
+          />
+          <br />
+
+          <input
+            type="date"
+            name="Enter Date"
+            value="Enter Date"
+            placeholder="Enter Date"
+          />
+          <br />
+
+          <input type="submit" name="Submit" value="SUBMIT" />
+          <br />
+        </div>
+      </form>
+    </section>
+
+    <footer>© 2021 AskBTC. All rights reserved</footer>
+  </body>
+</html>
